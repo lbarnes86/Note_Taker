@@ -3,9 +3,24 @@ var path = require("path");
 var fs = require("fs");
 const db = require("./db/db.json");
 
+var app = express();
+
 var PORT = process.env.PORT || 8080;
 
-var app = express();
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
+app.use(express.static("public"));
+
+//GET `/notes` - Should return the `notes.html` file.
+app.get("/notes", function(req, res){
+    res.sendFile(path.join(__dirname, "public/notes.html"));
+});
+
+//GET `*` - Should return the `index.html` file
+app.get("*", function(req, res) {
+    res.sendFile(path.join(__dirname, "public/index.html"));
+});
+
 
 
 
