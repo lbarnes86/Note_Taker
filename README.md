@@ -2,8 +2,6 @@
 
 - Project Repository: https://github.com/lbarnes86/Note_Taker
 
-- Project URL: https://lbarnes86.github.io/Note_Taker/.
-
 - Walk-through Video: https://youtu.be/-mEYdbPzkbA
 
 ## Description
