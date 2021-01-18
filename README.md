@@ -11,8 +11,9 @@ This Note taking app allows a user to write, save and delete notes. Notes data i
 - [Working-app](#working-app)
 - [Installation](#installation)
 - [Dependencies](#dependencies)
-- [Author](#author)
 - [Screenshots](#screenshots)
+- [Contributors](#contributors)
+- [License](#license)
 
 ## Working app
 
@@ -28,12 +29,6 @@ none required
 - express
 - path
 
-### Author 
-
-```
- Lloyd Barnes
-
-```
 
 ## Screenshots
 
@@ -47,5 +42,15 @@ none required
 
 <img src="https://user-images.githubusercontent.com/70309736/100531067-a1eb5080-31bf-11eb-8749-04e9acd77f7b.png">
 
+## Contributors
+
+[![GitHub license](https://img.shields.io/badge/Made%20by-Lloyd%20Barnes-ab8c9b?style=flat&logo=github)](https://github.com/lbarnes86)
+
+## License
+
+none
+
+
+Copyright© 2021 [Lloyd Barnes](https://lbarnes86.github.io/react-portfolio/)
 
 
